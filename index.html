@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <style>
+        /* Styles globaux */
+        body {
+            background-color: black;
+            /* Fond noir */
+            color: #00FF00;
+            /* Texte vert fluo */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            /* Pour que le fond noir couvre toute la page */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            color: #00FF00;
+            /* Titre en vert */
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        /* Style des liens */
+        a {
+            color: #00FF00;
+            /* Couleur des liens verts */
+            font-size: 1.5em;
+            text-decoration: none;
+            display: block;
+            margin: 10px 0;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #32CD32;
+            /* Légère variation du vert au survol */
+        }
+
+        /* Style pour l'encadré (si tu veux) */
+        .container {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bienvenue sur mon portfolio</h1>
+
+        <!-- Liens -->
+        <a href="https://requiemvnd.github.io/MonPortfolio/assets/CV.pdf" target="_blank">Mon CV (PDF)</a>
+        <a href="https://www.linkedin.com/in/tonprofil" target="_blank">Mon LinkedIn</a>
+        <a href="https://tonveille.com" target="_blank">Ma veille technologique</a>
+    </div>
+</body>
+
+</html>
